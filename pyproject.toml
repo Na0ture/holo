@@ -1,8 +1,15 @@
 [tool.poetry]
 name = "holo"
 version = "0.1.0"
-description = ""
+description = "Holo is a library provides overload like cpp"
 authors = ["lvzhi <279094354@qq.com>"]
+repository = "https://github.com/Na0ture/holo"
+keywords = ["overload"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.8"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
