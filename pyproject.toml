@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "holo"
-version = "0.1.0"
+version = "0.1.1"
 description = "Holo is a library provides overload like cpp"
 authors = ["lvzhi <279094354@qq.com>"]
 repository = "https://github.com/Na0ture/holo"
@@ -8,7 +8,9 @@ keywords = ["overload"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "Programming Language :: Python :: 3.8"
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9"
 ]
 
 [tool.poetry.dependencies]
@@ -17,6 +19,7 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 pytest = "^5.3.5"
 black = "^19.10b0"
+mypy = "^0.761"
 
 [build-system]
 requires = ["poetry>=0.12"]

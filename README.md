@@ -1,6 +1,13 @@
 # holo
 Holo is a library provides overload like cpp
 
+## Installation
+
+```py
+$ pip install holo
+```
+
+
 ## A Simple Example
 
 ```py
