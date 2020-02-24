@@ -1,11 +1,10 @@
 from inspect import getfullargspec, signature
 from typing import Dict, Tuple, Any, Callable
-from mypy_extensions import VarArg, KwArg
 
 
 def overload(
     fn: Callable, func_map: Dict[Tuple, Callable] = {}
-) -> Callable[[VarArg(Any), KwArg(Any)], Any]:
+) -> Callable[[Any, Any], Any]:
     mark = (*(fn.__qualname__.split(".")), len(getfullargspec(fn).args))
     if mark not in func_map:
         func_map[mark] = fn

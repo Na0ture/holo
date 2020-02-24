@@ -4,7 +4,7 @@ Holo is a library provides overload like cpp
 ## Installation
 
 ```py
-$ pip install holo
+pip install holo
 ```
 
 
